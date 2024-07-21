@@ -87,6 +87,44 @@ main {
     text-decoration: underline;
 }
 
+/* Consent Banner */
+.consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.consent-banner p {
+    margin: 0;
+    padding-right: 20px;
+}
+
+.consent-banner a {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+.consent-banner button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.consent-banner button:hover {
+    background-color: #45a049;
+}
+
 /* Footer */
 footer {
     text-align: center;
